@@ -216,3 +216,109 @@
 // 2-masala Butun son berilgan. Agar, berilgan son musbat bo`lsa, 1 ga oshiring, agar manfiy bo`lsa 2 ga kamaytiring. 
 // Agar 0 ga teng bo`lsa, 10 ni o`zlashtirsin. Hosil bo`lgan sonni ekranga chiqaruvchi programma tuzilsin.
 
+// let a = 5;
+// if ( a > 0 ){
+//     a++
+// }
+// if ( a < 0 ){
+//     a-=2
+// }
+// if ( a == 0 ){
+//     a+=10
+// }   
+// console.log(a);
+
+// 3-masala Uchta butun son berilgan. Shu sonlar orasidan nechta musbat son borligini aniqlovchi programma tuzilsin.
+
+// let a=1;
+// let b=2;
+// let c=3;
+// if (a>0 && b>0 && c>0){
+//     console.log("Hammasi musbat");
+// }else{
+//     if (a>0){
+//         console.log("a musbat");
+//     }else{
+//         if (a<0){
+//             console.log("a manfiy");
+//         }else{
+//             console.log("a 0 ga teng");   
+//         }      
+//     }
+//     if (b>0){
+//         console.log("b musbat");
+//     }else{
+//         if (b<0){
+//             console.log("b manfiy");
+//         }else{
+//             console.log("b 0 ga teng");   
+//         }       
+//     }
+//     if (c>0){
+//         console.log("c musbat");
+//     }else{
+//         if (c<0){
+//             console.log("c manfiy");
+//         }else{
+//             console.log("c 0 ga teng");   
+//         }      
+//     }
+// }
+
+// 4-masla Ikkita butun son berilgan. Shu sonlarning kattasini aniqlovchi programma tuzilsin.
+
+// let a=5;
+// let b=6;
+// if (a>b){
+//     console.log("a soni b dan katta");
+// }else{
+//     console.log("b soni a dan katta");   
+// }
+
+// 5-masala Ikkita butun son berilgan. Shu sonlarning kichigini tartib raqamini aniqlovchi programma tuzilsin.
+
+// let a=5;
+// let b=6;
+// if (a>b){
+//     console.log("kichik sonning tartib raami 2");    
+// }else{
+//     console.log("kichik sonning tartib raami 1");
+// } 
+
+// 6-masala Ikkita butun son berilgan. Shu sonlarning avval kattasini keyin kichigini ekranga chiqaruvchi programma tuzilsin.
+
+// let a=7;
+// let b=8;
+// if (a>b){
+//     console.log(`Kiritilgan sonlarning kattasi ${a} kichigi ${b}`);  
+// }else{
+//     console.log(`Kiritilgan sonlarning kattasi ${b} kichigi ${a}`);
+// }
+
+// 8-masala A va B butun sonlari berilgan. 
+// Agar o`zgaruvchilar o`zaro teng bo`lmasa, A va B o`zgaruvchilari ularning yig'indisini o`zlashtirsin. 
+// Agar teng bo`lsa, 0 ni o`zlashtirsin. A va B ning qiymati ekranga chiqarilsin.
+
+// let a=5;
+// let b=5;
+// if (!(a==b)){
+//     console.log("a=",a+b,"b=",a+b);   
+// }else{
+//     console.log("a=",a+0,"b=",0+b);
+// }
+
+// 9-masala  A va B butun sonlari berilgan. 
+// Agar o`zgaruvchilar o`zaro teng bo`lmasa, A va B bu sonlarning kattasini o`zlashtirsin. 
+// Agar teng bo`lsa, 0 ni o`zlashtirsin. A va B ning qiymati ekranga chiqarilsin.
+
+// let a=5;
+// let b=6;
+// if (!(a==b)){
+//     if (a>b){
+//         console.log("a=",a+a,"b=",b+a);
+//     }else{
+//         console.log("a=",a+b,"b=",b+b);
+//     }      
+// }else{
+//     console.log("a=",a+0,"b=",0+b);
+// }
