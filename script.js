@@ -322,3 +322,179 @@
 // }else{
 //     console.log("a=",a+0,"b=",0+b);
 // }
+
+// 10-masala Uchta son berilgan. Shu sonlarni kichigini aniqlovchi programma tuzilsin.
+
+// let a=2;
+// let b=2;
+// let c=2;
+// if (a<b && a<c){
+//         console.log(`kiritilgan ${a} soni kichik`);  
+//         if (b<a && b<c){
+//                         console.log(`kiritilgan ${b} soni kichik`);
+//                         }
+//                 if (c<a && c<b){
+//                                 console.log(`kiritilgan ${c} soni kichik`);
+//                         }
+                              
+// }else{
+//         console.log("hammasi teng");
+        
+// }
+
+// 11-masala Uchta son berilgan. 
+// Shu sonlarni o`ratachasi (ya'ni katta va kichik sonlar orasidagi son) ni aniqlovchi programma tuzilsin.
+
+// let a=2;
+// let b=1;
+// let c=3;
+// if (a>b && b>c){
+//         console.log(`kiritilgan ${b} son o'rtacha`);
+// }
+// if (b>a && a>c){
+//         console.log(`kiritilgan ${a} son o'rtacha`);
+// }
+// if (a>c && c>b){
+//         console.log(`kiritilgan ${c} son o'rtacha`);
+// }
+// if (c>a && a>b){
+//         console.log(`kiritilgan ${a} son o'rtacha`);
+// }
+// if (b>c && c>a){
+//         console.log(`kiritilgan ${c} son o'rtacha`);
+// }
+// if (c>b && b>a){
+//         console.log(`kiritilgan ${b} son o'rtacha`);
+// }
+// if (a==b && b==c){
+//         console.log("Kiritilgan hamma sonlar teng");       
+// }
+
+// 12-masala Uchta son berilgan. 
+// Shu sonlarning yig'indisi eng katta bo'ladigan ikkitasini ekranga chiqaruvchi programma tuzilsin.
+
+// let a=10        ;
+// let b=11;
+// let c=11;
+// if (a>b && b>c){
+//         console.log(`yig'indisi eng katta bo'ladigan ikkita son ${a} va ${b}`);
+// }
+// if (a>c && c>b){
+//         console.log(`yig'indisi eng katta bo'ladigan ikkita son ${a} va ${c}`);
+// }
+// if (b>a && c>a){
+//         console.log(`yig'indisi eng katta bo'ladigan ikkita son ${b} va ${c}`);
+// }
+// if (b>a && a>c){
+//         console.log(`yig'indisi eng katta bo'ladigan ikkita son ${b} va ${a}`);
+// }
+// if (c>a && a>b){
+//         console.log(`yig'indisi eng katta bo'ladigan ikkita son ${c} va ${a}`);
+// }
+// if (c==b && b==a){
+//         console.log(`sonlar teng`);
+// }
+
+// 13-masala A, B, C haqiqiy sonlari berilgan. Agar berilgan sonlar o`sish tartibida berilgan bo`lsa, 
+// sonlarni ikkilantiring, aks holda sonlarni ishorasi o'zgartirilsin. 
+// A, B, C ning qiymatlari ekranga chiqarilsin.
+
+// let A=6;
+// let B=4;
+// let C=10;
+// if (A<B && B<C){
+//         console.log(A*2, B*2, C*2);
+// }else{
+//         console.log("A=",-A ,"B=",-B, "C=", -C);
+        
+// }
+
+// 14-masala To`rtta butun son berilgan. Shu sonlarni uchtasi o`zaro teng, qolgan bittasini tartib raqami aniqlansin.
+
+// let a=5;
+// let b=5;
+// let c=5;
+// let d=6;
+// if (a==b && b==c){
+//         console.log("teng emas sonning tartib raqami 4");
+// }
+// if (a==b && b==d){
+//         console.log("teng emas sonning tartib raqami 3");   
+// } 
+// if (a==c && c==d){
+//         console.log("teng emas sonning tartib raqami 2");   
+// }
+// if (b==c && c==d){
+//         console.log("teng emas sonning tartib raqami 1");   
+// }
+
+// 15-masala x haqiqiy soni berilgan. Quyidagi funksiya hisoblansin.
+
+// agar x≤ 0 bo’lsa -x;
+// agar 0<x<2; x^2
+// agar x≥2 bo’lsa 4
+
+// let x=5.5
+// if (x<=0){
+//         console.log("x=", -x);        
+// }
+// if (0<x && x<2){
+//         console.log("x=", x*x);     
+// }
+// if (x>=2){
+//         console.log("x=", 4);     
+// }
+
+// 16-masala Yil berilgan (musbat butun son). 
+// Berilgan yilda nechta kun borligini aniqlovchi programma tuzilsin. 
+// Kabisa yilida 366 kun bor, kabisa bo'lmagan yilda 365 kun bor. 
+// Kabisa yil deb 4 ga karrali yillarga aytiladi. Lekin 100 ga karrali yillar ichida faqat 
+// 400 ga karrali bo'lganlari kabisa yil hisoblanadi. 
+// Masalan 300, 1300 va 1900 kabisa yili emas. 1200 va 2000 kabisa yili.
+
+// let Yil=1600;
+// if (Yil%400==0){
+//         console.log(`kiritilgan ${Yil} kabisa yilida`, Yil*366, "kun bor");       
+// }else{
+//         console.log(`kiritilgan ${Yil} kabisa bo'lmagan yilida`, Yil*365, "kun bor");     
+// }
+
+// 17-masala 1-999 oraliqdagi sonlar berilgan. 
+// Berilgan sonni "ikki xonali juft son", "uch xonali toq son" va x.k. ekranga yozadigan programma tuzilsin.
+
+// let a=1000;
+// if (a<=999 && a>99 && a%2==0){
+//         console.log("Bu son uch xonali juft son");  
+// }
+// if (a<=999 && a>99 && !(a%2==0)){
+//         console.log("Bu son uch xonali toq son");
+// }  
+// if (a<=99 && a>9 && a%2==0){
+//         console.log("Bu son ikki xonali juft son");
+// }
+// if (a<=99 && a>9 && !(a%2==0)){
+//         console.log("Bu son ikki xonali toq son");
+// }else{
+//         console.log("Bu son bir xonali yoki 999 dan katta");  
+// }
+
+// 18-masala K butun soni berilgan. Baho natijalarini chiqaruvchi programma tuzing.
+// (1-yomon, 2-qoniqarsiz, 3-qoniqarli, 4-yahshi, 5-a'lo). 
+// Agar k soni 1-5 gacha oraliqqa tegishli bo`lmasa "xato" deb chiqarilsin.
+
+// let k=0;
+// if (k==5){
+//         console.log(`sizning bahoingiz ${k} a'lo`);
+// }
+// else if(k==4){
+//         console.log(`sizning bahoingiz ${k} yaxshi`);
+// }
+// else if(k==3){
+//         console.log(`sizning bahoingiz ${k} qoniqarli`);
+// }
+// else if(k==2){
+//         console.log(`sizning bahoingiz ${k} yomon`);
+// }else{
+//         console.log("xato");   
+// }
+
